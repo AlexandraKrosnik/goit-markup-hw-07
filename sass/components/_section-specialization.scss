@@ -1,0 +1,12 @@
+.specialization {
+  @extend %section;
+  padding-top: 0;
+
+  &__container {
+    @extend %container;
+  }
+
+  &__title {
+    @extend %section__title;
+  }
+}

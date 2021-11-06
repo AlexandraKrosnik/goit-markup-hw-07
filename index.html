@@ -90,18 +90,18 @@
                                 </div>
                                 
                                 <div class="form__elements">
-                                    <label for="comments-modal" class="form__label form__label--textarea">Комментарий</label>
                                     <textarea name="comments-feedback" id="comments-modal" rows="10" class="form__input form__input--textarea"
-                                        placeholder=""></textarea>
+                                        placeholder=" "></textarea>
+                                    <label for="comments-modal" class=" form__label form__label--textarea">Комментарий</label>                                    
                                 </div>
 
                             </div>
-                             <label for="check" class="label-check">Соглашаюсь с рассылкой и принимаю<a href=""> Условия договора</a>
-                                <input type="checkbox" id="check" class="check-modal">
-                                <span class="check-icon"></span>
+                             <label for="check" class="form__checkbox--label">Соглашаюсь с рассылкой и принимаю<a class="form__link" href=""> Условия договора</a>
+                                <input type="checkbox" id="check" class="form__checkbox--input">
+                                <span class="form__checkbox--icon"></span>
                             </label>
 
-                            <button type="submit" class="button-order">Отправить</button>
+                            <button type="submit" class="form__button">Отправить</button>
                             
                         </form>
                     </div>
@@ -111,48 +111,48 @@
         </section>
 
         <!-- качества -->
-        <section class="section">
-            <div class="container">                
-                <h2 class="visually-hidden">Наши качества</h2>
-                <ul class="list quality-ul">
-                    <li class="quality-li">
-                        <div class="img-quality">                         
-                            <svg class="svg-quality" width="70" height="70">
+        <section class="quality">
+            <div class="quality__container">                
+                <h2 class="quality__title">Наши качества</h2>
+                <ul class="quality__list list">
+                    <li class="quality__item">
+                        <div class="quality__img">                         
+                            <svg class="quality__icon" width="70" height="70">
                                 <use href="./images/symbol-defs.svg#icon-Group"></use>
                             </svg>
                         </div>
-                        <h3 class="quality-title">Внимание к деталям</h3>
-                        <p class="descr-quality" lang="en">Идейные соображения, а также начало повседневной работы по формированию
+                        <h3 class="quality__name">Внимание к деталям</h3>
+                        <p class="quality__description" lang="en">Идейные соображения, а также начало повседневной работы по формированию
                             позиции.</p>
                     </li>
-                    <li class="quality-li">
-                        <div class="img-quality">
-                            <svg class="svg-quality" width="70" height="70">
+                    <li class="quality__item">
+                        <div class="quality__img">
+                            <svg class="quality__icon" width="70" height="70">
                                 <use href="./images/symbol-defs.svg#icon-clock"></use>
                             </svg>
                         </div>
-                        <h3 class="quality-title">Пунктуальность</h3>
-                        <p class="descr-quality" lang="en">Задача организации, в особенности же рамки и место обучения кадров влечет за
+                        <h3 class="quality__name">Пунктуальность</h3>
+                        <p class="quality__description" lang="en">Задача организации, в особенности же рамки и место обучения кадров влечет за
                             собой.</p>
                     </li>
-                    <li class="quality-li">
-                        <div class="img-quality">
-                            <svg class="svg-quality" width="70" height="70">
+                    <li class="quality__item">
+                        <div class="quality__img">
+                            <svg class="quality__icon" width="70" height="70">
                                 <use href="./images/symbol-defs.svg#icon-diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="quality-title">Планирование</h3>
-                        <p class="descr-quality" lang="en">Равным образом консультация с широким активом в значительной степени
+                        <h3 class="quality__name">Планирование</h3>
+                        <p class="quality__description" lang="en">Равным образом консультация с широким активом в значительной степени
                             обуславливает.</p>
                     </li>
-                    <li class="quality-li">
-                        <div class="img-quality">
-                            <svg class="svg-quality" width="70" height="70">
+                    <li class="quality__item">
+                        <div class="quality__img">
+                            <svg class="quality__icon" width="70" height="70">
                                 <use href="./images/symbol-defs.svg#icon-astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="quality-title">Современные технологии</h3>
-                        <p class="descr-quality" lang="en">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                        <h3 class="quality__name">Современные технологии</h3>
+                        <p class="quality__description" lang="en">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                         </p>
                     </li>
                 </ul>
@@ -160,9 +160,9 @@
         </section>
 
         <!--Чем мы занимаемся  -->
-        <section class="section no-top">
-            <div class="container">
-                <h2 class="section-title">Чем мы занимаемся</h2>
+        <section class="specialization">
+            <div class="specialization__container">
+                <h2 class="specialization__title">Чем мы занимаемся</h2>
                 <ul class="list doing-list">
                     <li class="doing-li">
                         <img src="./images/1.jpg" alt="Работа над кодом" width="370" class="img">
