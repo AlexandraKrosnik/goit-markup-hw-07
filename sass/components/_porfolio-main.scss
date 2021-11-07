@@ -1,0 +1,15 @@
+.portfolio {
+  @extend %section;
+
+  &__container {
+    @extend %container;
+  }
+
+  &__title {
+    @extend %visually-hidden;
+  }
+
+  &__filter {
+    margin-bottom: 50px;
+  }
+}
